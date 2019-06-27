@@ -11,7 +11,7 @@ class App < Sinatra::Base
         
        @team_data = params
 
-       binding.pry
+      # binding.pry
         erb :team
     end
 end
